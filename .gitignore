@@ -1,0 +1,54 @@
+# ==============================================================================
+# AnimalVision AI – Git Ignore Configuration
+# ==============================================================================
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Frontend dependencies & build artifacts
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Datasets (large binary images / archives preserved locally)
+data/
+
+# Model checkpoints (binary weights >100MB preserved locally, tracked via Git LFS / Releases)
+models/*.pth
+models/*.pt
+models/data_efficiency/
+
+# Ephemeral scratch & debugging directory
+scratch/
+
+# Environment secrets & credentials
+.env
+.env.*
+!.env.example
+
+# IDE & Editor configurations
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS & temporary logs
+*.log
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Local prediction history
+results/animals10/prediction_history.json

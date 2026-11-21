@@ -1,0 +1,69 @@
+{
+  "num_classes": 10,
+  "classes": [
+    "butterfly",
+    "cat",
+    "chicken",
+    "cow",
+    "dog",
+    "elephant",
+    "horse",
+    "sheep",
+    "spider",
+    "squirrel"
+  ],
+  "class_to_idx": {
+    "butterfly": 0,
+    "cat": 1,
+    "chicken": 2,
+    "cow": 3,
+    "dog": 4,
+    "elephant": 5,
+    "horse": 6,
+    "sheep": 7,
+    "spider": 8,
+    "squirrel": 9
+  },
+  "idx_to_class": {
+    "0": "butterfly",
+    "1": "cat",
+    "2": "chicken",
+    "3": "cow",
+    "4": "dog",
+    "5": "elephant",
+    "6": "horse",
+    "7": "sheep",
+    "8": "spider",
+    "9": "squirrel"
+  },
+  "img_size": 224,
+  "normalization": {
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ]
+  },
+  "training_class_weights": {
+    "butterfly": 1.4694,
+    "cat": 1.9651,
+    "chicken": 0.787,
+    "cow": 1.3106,
+    "dog": 0.4895,
+    "elephant": 2.2709,
+    "horse": 0.9069,
+    "sheep": 1.712,
+    "spider": 0.5427,
+    "squirrel": 1.3085
+  },
+  "split_counts": {
+    "train": 16487,
+    "val": 3533,
+    "test": 3534
+  }
+}

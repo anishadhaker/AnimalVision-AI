@@ -1,0 +1,3 @@
+model,training_setup,total_params,trainable_params_training,frozen_params_training,test_accuracy,macro_precision,macro_recall,macro_f1,weighted_precision,weighted_recall,weighted_f1,mean_latency_ms,median_latency_ms,p95_latency_ms,throughput_fps,batch_eval_duration_seconds
+ResNet-18 (CNN),Frozen ImageNet-1K Pretrained Backbone + Head Tuning (10 epochs),11181642,5130,11176512,96.49,95.72,96.17,95.92,96.52,96.49,96.49,49.9,45.37,72.64,20.0,193.08
+Swin-Tiny (Vision Transformer),Frozen ImageNet-1K Pretrained Backbone + Head Tuning (10 epochs),27527044,7690,27519354,98.64,98.29,98.47,98.38,98.65,98.64,98.64,178.42,170.91,235.09,5.6,731.23

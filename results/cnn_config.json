@@ -1,0 +1,33 @@
+{
+  "model": "cnn",
+  "seed": 42,
+  "device": "cpu",
+  "img_size": 96,
+  "total_train_samples": 5000,
+  "total_val_samples": 1000,
+  "train_class_distribution": {
+    "bird": 1000,
+    "cat": 1000,
+    "deer": 1000,
+    "dog": 1000,
+    "frog": 1000
+  },
+  "val_class_distribution": {
+    "bird": 200,
+    "cat": 200,
+    "deer": 200,
+    "dog": 200,
+    "frog": 200
+  },
+  "epochs_planned": 5,
+  "epochs_completed": 5,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "freeze_backbone": false,
+  "best_val_accuracy": 47.3,
+  "total_duration_seconds": 357.26,
+  "preliminary_experiment": true,
+  "checkpoint_file": "cnn_best.pth",
+  "history_file": "cnn_history.csv"
+}

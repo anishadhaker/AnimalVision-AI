@@ -1,0 +1,34 @@
+{
+  "status": "SUCCESS",
+  "timestamp": "2026-11-15 12:55:42",
+  "batch_size_tested": 8,
+  "input_resolution": "224x224",
+  "resnet18": {
+    "model_name": "ResNet-18",
+    "total_parameters": 11181642,
+    "trainable_parameters": 5130,
+    "frozen_parameters": 11176512,
+    "output_shape": [
+      8,
+      10
+    ],
+    "forward_latency_batch8_ms": 921.36,
+    "loss_value": 2.7757,
+    "head_grad_norm": 11.509499,
+    "frozen_backbone_verified": true
+  },
+  "swin_tiny": {
+    "model_name": "Swin-Tiny Transformer",
+    "total_parameters": 27527044,
+    "trainable_parameters": 7690,
+    "frozen_parameters": 27519354,
+    "output_shape": [
+      8,
+      10
+    ],
+    "forward_latency_batch8_ms": 3838.59,
+    "loss_value": 2.3549,
+    "head_grad_norm": 5.962107,
+    "frozen_backbone_verified": true
+  }
+}

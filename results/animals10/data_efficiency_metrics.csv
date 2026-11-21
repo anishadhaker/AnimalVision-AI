@@ -1,0 +1,11 @@
+model,model_key,fraction,train_samples,val_samples,test_samples,best_epoch,best_val_acc,best_val_loss,test_accuracy,macro_precision,macro_recall,macro_f1,weighted_precision,weighted_recall,weighted_f1,train_duration_seconds,checkpoint_file
+ResNet-18,resnet18,10%,1650,3533,3534,10,95.7,0.2438,94.71,94.38,94.04,94.17,94.79,94.71,94.71,1.11,resnet18_fraction_10_best.pt
+ResNet-18,resnet18,25%,4122,3533,3534,8,96.24,0.1678,95.42,94.89,94.66,94.73,95.48,95.42,95.41,2.24,resnet18_fraction_25_best.pt
+ResNet-18,resnet18,50%,8245,3533,3534,7,96.72,0.1303,95.78,94.86,95.4,95.08,95.86,95.78,95.79,3.83,resnet18_fraction_50_best.pt
+ResNet-18,resnet18,75%,12365,3533,3534,6,96.8,0.12,96.21,95.35,95.8,95.54,96.26,96.21,96.21,5.14,resnet18_fraction_75_best.pt
+ResNet-18,resnet18,100%,16487,3533,3534,7,96.91,0.1192,96.15,95.32,95.86,95.52,96.24,96.15,96.15,6.05,resnet18_fraction_100_best.pt
+Swin-Tiny,swin_tiny,10%,1650,3533,3534,4,98.25,0.1376,98.59,98.41,98.35,98.37,98.59,98.59,98.58,0.8,swin_tiny_fraction_10_best.pt
+Swin-Tiny,swin_tiny,25%,4122,3533,3534,9,98.47,0.0672,98.53,98.25,98.26,98.25,98.53,98.53,98.53,1.92,swin_tiny_fraction_25_best.pt
+Swin-Tiny,swin_tiny,50%,8245,3533,3534,10,98.67,0.0504,98.7,98.36,98.49,98.42,98.7,98.7,98.7,3.15,swin_tiny_fraction_50_best.pt
+Swin-Tiny,swin_tiny,75%,12365,3533,3534,5,98.56,0.0493,98.59,98.14,98.45,98.3,98.59,98.59,98.59,4.28,swin_tiny_fraction_75_best.pt
+Swin-Tiny,swin_tiny,100%,16487,3533,3534,8,98.67,0.0449,98.7,98.41,98.58,98.49,98.7,98.7,98.7,5.78,swin_tiny_fraction_100_best.pt

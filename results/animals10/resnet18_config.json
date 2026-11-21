@@ -1,0 +1,20 @@
+{
+  "model": "resnet18",
+  "dataset": "Rapidata/Animals-10",
+  "num_classes": 10,
+  "img_size": 224,
+  "epochs": 10,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "batch_size": 64,
+  "best_val_accuracy": 96.91,
+  "best_val_loss": 0.1,
+  "best_epoch": 8,
+  "total_duration_seconds": 1124.9,
+  "total_parameters": 11181642,
+  "trainable_parameters": 5130,
+  "frozen_parameters": 11176512,
+  "training_protocol": "Frozen-Backbone Feature-Based Transfer Learning (Pre-computed Feature Cache)",
+  "checkpoint_file": "resnet18_animals10_best.pth",
+  "history_file": "resnet18_history.csv"
+}

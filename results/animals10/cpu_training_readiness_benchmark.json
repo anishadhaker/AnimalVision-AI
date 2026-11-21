@@ -1,0 +1,25 @@
+{
+  "system_available_ram_gb": 0.7,
+  "batch_size": 8,
+  "batches_per_epoch": 2061,
+  "resnet18": {
+    "step_total_ms": 1182.6,
+    "data_loading_ms": 103.0,
+    "forward_ms": 1077.4,
+    "backward_ms": 2.2,
+    "throughput_img_per_sec": 6.76,
+    "process_ram_mb": 359.4,
+    "est_1_epoch_min": 40.62,
+    "est_5_epochs_min": 203.12
+  },
+  "swin_tiny": {
+    "step_total_ms": 2358.7,
+    "data_loading_ms": 103.3,
+    "forward_ms": 2253.7,
+    "backward_ms": 1.7,
+    "throughput_img_per_sec": 3.39,
+    "process_ram_mb": 514.3,
+    "est_1_epoch_min": 81.02,
+    "est_5_epochs_min": 405.11
+  }
+}
